@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/%3CBMI-calculator%3E/static/css/main.78b367cb.css",
+    "main.js": "/%3CBMI-calculator%3E/static/js/main.f8640626.js",
+    "static/js/787.17dbfb13.chunk.js": "/%3CBMI-calculator%3E/static/js/787.17dbfb13.chunk.js",
+    "static/media/tips-bg-dark.png": "/%3CBMI-calculator%3E/static/media/tips-bg-dark.c679b42a2bd831de72d1.png",
+    "static/media/tips-bg-ligth.png": "/%3CBMI-calculator%3E/static/media/tips-bg-ligth.0951fd6d1fe42bdf6027.png",
+    "static/media/man-dark-mode.png": "/%3CBMI-calculator%3E/static/media/man-dark-mode.c1a536ea59d3fe45427e.png",
+    "static/media/man-light-mode.png": "/%3CBMI-calculator%3E/static/media/man-light-mode.5d1927da31d1f353ccbc.png",
+    "index.html": "/%3CBMI-calculator%3E/index.html",
+    "main.78b367cb.css.map": "/%3CBMI-calculator%3E/static/css/main.78b367cb.css.map",
+    "main.f8640626.js.map": "/%3CBMI-calculator%3E/static/js/main.f8640626.js.map",
+    "787.17dbfb13.chunk.js.map": "/%3CBMI-calculator%3E/static/js/787.17dbfb13.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78b367cb.css",
+    "static/js/main.f8640626.js"
+  ]
+}
