@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.switch {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  border-radius: 34px;
+  background-color: #eaeaea;
+}
+
+.switch::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: #fff;
+  transition: transform 0.3s;
+}
+
+.input__check:checked+.slider {
+  transform: translateX(-26px);
+}
+
+.switch:hover::before {
+  transform: none;
+}
+
+.slider:before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #d3d3d3;
+  transition: background-color 0.3s;
+}
+
+.input__check:checked+.slider:before {
+  background-color: #253347;
+}
+
+@keyframes toggle__animation {
+
+  0%,
+  100% {
+    transform: translateY(-10px) rotateX(15deg) rotateY(-20deg);
+  }
+
+  50% {
+    transform: translateY(0px) rotateX(15deg) rotateY(-20deg);
+  }
+}
+
+.light-theme {
+  background-color: #ffffff;
+}
+
+.dark-theme {
+  background-color: #253347;
+}
+
+.light-theme .heading,
+.light-theme h2,
+.light-theme h4,
+.light-theme h5,
+.light-theme .label-radio,
+.light-theme input {
+  color: #253347;
+}
+
+.light-theme .input-container label,
+.light-theme .result-par,
+.light-theme .tips-text,
+.light-theme .text,
+.light-theme article p {
+  color: #5E6E85;
+}
+
+.light-theme .input-with-unit input,
+.light-theme article {
+  background-color: #ffffff;
+}
+
+.light-theme .tips-component {
+  background-image: url("./assets/tips-bg-ligth.png");
+}
+
+.light-theme .dark-theme-img {
+  display: none;
+}
+
+.light-theme .light-theme-img {
+  display: block;
+}
+
+.dark-theme .dark-theme-img {
+  display: block;
+}
+
+.dark-theme .light-theme-img {
+  display: none;
+}
